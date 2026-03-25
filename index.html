@@ -267,6 +267,98 @@ Iscriviti al corso
 
 </div>
 
+  <!-- SEZIONE ALTRI CORSI -->
+<style>
+.altri-corsi {
+   padding: 90px 20px;
+   text-align: center;
+   background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+   color: white;
+}
+
+.altri-corsi h2 {
+   font-size: 36px;
+   margin-bottom: 10px;
+}
+
+.altri-corsi p {
+   font-size: 18px;
+   margin-bottom: 45px;
+   opacity: 0.95;
+}
+
+.corsi-bottoni {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 25px;
+}
+
+.corso-btn {
+   padding: 18px 34px;
+   font-size: 18px;
+   font-weight: bold;
+   color: white;
+   text-decoration: none;
+   border-radius: 14px;
+   transition: all 0.35s ease;
+   box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+   position: relative;
+   overflow: hidden;
+}
+
+/* Light shine effect */
+.corso-btn::before {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: -75%;
+   width: 50%;
+   height: 100%;
+   background: rgba(255,255,255,0.3);
+   transform: skewX(-25deg);
+   transition: 0.5s;
+}
+
+.corso-btn:hover::before {
+   left: 125%;
+}
+
+.corso-btn:hover {
+   transform: translateY(-6px) scale(1.1);
+   box-shadow: 0 18px 40px rgba(0,0,0,0.6);
+}
+
+/* Colori vibranti */
+.btn-psoriasi { background: linear-gradient(45deg, #ff416c, #ff4b2b); }
+.btn-visione { background: linear-gradient(45deg, #00c9ff, #92fe9d); color:#2c3e50; }
+.btn-api { background: linear-gradient(45deg, #667eea, #764ba2); }
+.btn-crescita { background: linear-gradient(45deg, #f7971e, #ffd200); color:#2c3e50; }
+</style>
+
+<div class="altri-corsi">
+   <h2>Altri corsi molto interessanti che dovresti scoprire</h2>
+   <p>Esplora questi programmi progettati per migliorare la tua salute, le tue competenze e il tuo benessere.</p>
+
+   <div class="corsi-bottoni">
+      <a class="corso-btn btn-psoriasi" href="https://valueinvestingsoftware.github.io/Psoriasi/" target="_blank">
+         Guida naturale contro la psoriasi
+      </a>
+
+      <a class="corso-btn btn-visione" href="https://valueinvestingsoftware.github.io/VedereChiaramente/" target="_blank">
+         Migliorare la vista naturalmente
+      </a>
+
+      <a class="corso-btn btn-api" href="https://valueinvestingsoftware.github.io/CostruireUnaApiRest/" target="_blank">
+         Costruire una API REST da zero
+      </a>
+
+      <a class="corso-btn btn-crescita" href="https://valueinvestingsoftware.github.io/CrescitaInAltezza/" target="_blank">
+         Programma di crescita in altezza
+      </a>
+   </div>
+</div>
+  
 <div class="footer">
 
 <p>Masterclass di Fluidità in Spagnolo – Corso avanzato di spagnolo</p>
